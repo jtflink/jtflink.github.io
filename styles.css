@@ -1,19 +1,19 @@
 /* Typography */
 body {
   /* Everything is Raleway */
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 /* Except we're using more specific rules to override the headlines */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 /* And the "logo" */
 .navbar-brand {
-  font-family: 'Roboto Slab', serif;
-  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
 }
 .navbar-brand img {
-  width: 30px;
+  width: 35px;
   height: 40px;
 }
 .navbar-dark .navbar-brand {
