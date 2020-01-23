@@ -1,27 +1,28 @@
 /* Typography */
 body {
   /* Everything is Raleway */
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 /* Except we're using more specific rules to override the headlines */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 /* And the "logo" */
 .navbar-brand {
-  font-size: 25px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
 }
 .navbar-brand img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
-.navbar-dark .navbar-brand {
-  color: white;
+.navbar-light .navbar-brand {
+  color: red;
 }
 
 /* Navbar background color */
 .navbar {
-  background-color: black;
+  background-color: white;
 }
 
 /* Jumbotron background and font styles */
