@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 35px;
 }
 
+.table tr {
+  height: 100px;
+}
+
 /* Jumbotron background and font styles */
 /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
 .jumbotron {
