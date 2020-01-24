@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 200px;
 }
 
+.display-4 {
+  font-size: 30px;
+}
+
 /* Jumbotron background and font styles */
 /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
 .jumbotron {
@@ -52,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(chicago.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 300px;
 
   /* Fonts */
   /* The text-shadow helps the white text stand out better on a darker background */
