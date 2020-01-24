@@ -50,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   background-color: #ced665;
+  border-color: #ced665;
 }
 
 /* Jumbotron background and font styles */
@@ -60,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(chicago.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 400px;
+  min-height: 500px;
 
   /* Fonts */
   /* The text-shadow helps the white text stand out better on a darker background */
