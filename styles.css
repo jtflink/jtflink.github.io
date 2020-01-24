@@ -58,11 +58,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The pricing */
 .pricing {
-  background-color: #181818;
+  background-color: white;
 }
 .pricing h1 {
-  font-family: 'Permanent Marker', cursive;
-  color: #cccccc;
+  font-family: 'Raleway', sans-serif;
+  color: black;
 }
 
 /* The footer */
