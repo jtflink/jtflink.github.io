@@ -55,7 +55,7 @@ body {
 /* Portfolio company logos grayed out, except when mouse hovers over them */
 .portfolio img {
   height: auto;
-  max-width: 50%;
+  max-width: 60%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
