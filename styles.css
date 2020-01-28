@@ -1,95 +1,93 @@
-/* Typography */
+/* Default font */
 body {
-  /* Everything is Raleway */
   font-family: 'Raleway', sans-serif;
 }
-/* Except we're using more specific rules to override the headlines */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
-}
-/* And the "logo" */
-.navbar-brand {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-}
-.navbar-brand img {
-  width: 30px;
-  height: 35px;
-}
-.navbar-light .navbar-brand {
-  color: black;
+
+/* Override headers with different font */
+.apply_for_membership h1 {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* Navbar background color */
-.navbar {
-  background-color: #afe6f1;
+.companies_partnered_with {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.table img {
-  height: 150px;
+/* Navbar */
+.navbar img {
+  height: 40px;
 }
 
-.table img {
-  transition: filter .5s ease-in-out;
-  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(0%); /* FF 35+ */
-}
-
-.table img:hover {
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ */
-}
-
-.table tr {
-  height: 200px;
-}
-
-.display-4 {
-  font-size: 30px;
-}
-
-.btn {
-  background-color: #ced665;
-  border-color: #ced665;
-}
-
-/* Jumbotron background and font styles */
-/* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
+/* Jumbotron */
 .jumbotron {
-  /* Background */
   background-attachment: fixed;
   background-image: url(chicago.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
-
-  /* Fonts */
-  /* The text-shadow helps the white text stand out better on a darker background */
-  color: white;
-  text-shadow: 1px 1px 1px black;
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
 }
 
-/* The background color of the "testimonials" part */
-.testimonials {
-  background-color: #eeeeee;
+/* About background color */
+.about {
+  background-color: #EFEBE6;
 }
 
-/* The size of the testimonials images */
-.media img {
-  width: 64px;
-  height: 64px;
+/* About override header color */
+.about h4 {
+  color: #0d667f;
 }
 
-/* The pricing */
-.pricing {
-  background-color: white;
-}
-.pricing h1 {
-  font-family: 'Raleway', sans-serif;
-  color: black;
+/* About override paragraph font size */
+.about p {
+  font-size: 20px;
 }
 
-/* The footer */
+/* Override portfolio table style */
+.portfolio td {
+  border: 1px solid #ffffff;
+  width: 25%;
+  vertical-align: middle;
+  height: 200px;
+}
+
+/* Portfolio company logos grayed out, except when mouse hovers over them */
+.portfolio img {
+  max-height: 80px;
+  max-width: 200px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.table img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(0%);
+}
+
+/* Investors */
+.investors_page_headers {
+  color: #0d667f;
+}
+
+/* Overriding button style rules */
+.btn {
+  border-color: #0d667f;
+  color: #0d667f;
+}
+
+.btn:hover {
+  background-color: #0d667f;
+  border-color: #0d667f;
+  color: #ffffff;
+}
+
+.jumbotron a {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Footer */
 .footer img {
-  width: 100px;
+  height: 60px;
 }
