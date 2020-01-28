@@ -12,13 +12,9 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* Navbar, including overriding text and background color */
+/* Navbar, including overriding background color */
 .navbar {
-  background-color: #ffffff;
-}
-
-.navbar a {
-  color: #0d667f;
+  background-color: #FEFEFE;
 }
 
 .navbar img {
@@ -37,17 +33,15 @@ body {
   align-items: center;
 }
 
-/* About background color */
+/* About */
 .about {
   background-color: #EFEBE6;
 }
 
-/* About header color */
 .about h4 {
   color: #0d667f;
 }
 
-/* About paragraph font size */
 .about p {
   font-size: 20px;
 }
