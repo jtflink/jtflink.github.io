@@ -8,16 +8,24 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.companies_partnered_with {
+.companies_partnered_with h2 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* Navbar */
+/* Navbar, including overriding text and background color */
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar a {
+  color: #0d667f;
+}
+
 .navbar img {
   height: 40px;
 }
 
-/* Jumbotron */
+/* Jumbotron, including overriding text color */
 .jumbotron {
   background-attachment: fixed;
   background-image: url(chicago.png);
@@ -34,19 +42,18 @@ body {
   background-color: #EFEBE6;
 }
 
-/* About override header color */
+/* About header color */
 .about h4 {
   color: #0d667f;
 }
 
-/* About override paragraph font size */
+/* About paragraph font size */
 .about p {
   font-size: 20px;
 }
 
-/* Override portfolio table style */
+/* Portfolio table */
 .portfolio td {
-  border: 1px solid #ffffff;
   width: 25%;
   vertical-align: middle;
   height: 200px;
@@ -56,12 +63,10 @@ body {
 .portfolio img {
   height: auto;
   max-width: 60%;
-  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
 .table img:hover {
-  -webkit-filter: grayscale(100%);
   filter: grayscale(0%);
 }
 
